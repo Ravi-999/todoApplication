@@ -1,0 +1,36 @@
+.item{
+  
+    p{
+        flex-grow: 1;
+        margin-left: 1rem;
+    }
+    button{
+        width:2rem;
+        height:2rem;
+        margin:0 0.5rem;
+        background-color: white;
+        align-self: center;
+    }
+    button:hover{
+        cursor: pointer;
+    }
+    img{
+        width:100%;
+        height:100%;
+    }
+    .rightTick{
+        border-color: rgb(144, 184, 144);
+    }
+    .wrongTick{
+        border-color: rgb(189, 50, 50);
+    }
+}
+.item__box{
+    display:flex;
+    background-color: white;
+    padding:0.5rem 0;
+    width:70%;
+    border-radius: 0.2rem;
+    margin-bottom: 0.4rem;
+    border:1px solid gray;
+}

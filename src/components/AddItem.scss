@@ -1,0 +1,23 @@
+.addItem{
+    margin-left: 20%;
+    h4{
+        margin:0.5rem 0px;
+    }
+    input{
+        width:70%;
+        height:2rem;
+        border:1px solid rgb(154, 153, 153);
+        border-radius: 0.2rem;
+    }
+    button{
+        margin:1rem 0;
+        background-color: blue;
+        color:white;
+        border-radius: 0.2rem;
+        height:2rem;
+        width:4rem
+    }
+    button:hover{
+        cursor: pointer;
+    }
+}
